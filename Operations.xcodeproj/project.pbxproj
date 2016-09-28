@@ -12,10 +12,8 @@
 		482FE2E81C800E7500BF7912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482FE2E61C800E7500BF7912 /* Main.storyboard */; };
 		482FE2EA1C800E7500BF7912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482FE2E91C800E7500BF7912 /* Assets.xcassets */; };
 		482FE2ED1C800E7500BF7912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482FE2EB1C800E7500BF7912 /* LaunchScreen.storyboard */; };
-		482FE2F61C80119B00BF7912 /* SomeLongTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482FE2F51C80119B00BF7912 /* SomeLongTask.swift */; };
-		482FE2F81C8011AD00BF7912 /* AnotherLongTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482FE2F71C8011AD00BF7912 /* AnotherLongTask.swift */; };
-		48C6C47A1C83660100F14127 /* SomeOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C6C4791C83660100F14127 /* SomeOperation.swift */; };
-		48C6C47E1C84165600F14127 /* AnotherOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C6C47D1C84165600F14127 /* AnotherOperation.swift */; };
+		482FE2F61C80119B00BF7912 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482FE2F51C80119B00BF7912 /* Task.swift */; };
+		48C6C47A1C83660100F14127 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C6C4791C83660100F14127 /* Operation.swift */; };
 		48C6C4801C8419C500F14127 /* BaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C6C47F1C8419C500F14127 /* BaseOperation.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,10 +25,8 @@
 		482FE2E91C800E7500BF7912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		482FE2EC1C800E7500BF7912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		482FE2EE1C800E7500BF7912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		482FE2F51C80119B00BF7912 /* SomeLongTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeLongTask.swift; sourceTree = "<group>"; };
-		482FE2F71C8011AD00BF7912 /* AnotherLongTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherLongTask.swift; sourceTree = "<group>"; };
-		48C6C4791C83660100F14127 /* SomeOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeOperation.swift; sourceTree = "<group>"; };
-		48C6C47D1C84165600F14127 /* AnotherOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherOperation.swift; sourceTree = "<group>"; };
+		482FE2F51C80119B00BF7912 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		48C6C4791C83660100F14127 /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 		48C6C47F1C8419C500F14127 /* BaseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,10 +74,8 @@
 		482FE2F41C80117E00BF7912 /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
-				482FE2F51C80119B00BF7912 /* SomeLongTask.swift */,
-				482FE2F71C8011AD00BF7912 /* AnotherLongTask.swift */,
-				48C6C4791C83660100F14127 /* SomeOperation.swift */,
-				48C6C47D1C84165600F14127 /* AnotherOperation.swift */,
+				482FE2F51C80119B00BF7912 /* Task.swift */,
+				48C6C4791C83660100F14127 /* Operation.swift */,
 				48C6C47F1C8419C500F14127 /* BaseOperation.swift */,
 			);
 			path = Tasks;
@@ -158,13 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				482FE2F81C8011AD00BF7912 /* AnotherLongTask.swift in Sources */,
 				48C6C4801C8419C500F14127 /* BaseOperation.swift in Sources */,
-				48C6C47A1C83660100F14127 /* SomeOperation.swift in Sources */,
-				482FE2F61C80119B00BF7912 /* SomeLongTask.swift in Sources */,
+				48C6C47A1C83660100F14127 /* Operation.swift in Sources */,
+				482FE2F61C80119B00BF7912 /* Task.swift in Sources */,
 				482FE2E51C800E7500BF7912 /* ViewController.swift in Sources */,
 				482FE2E31C800E7500BF7912 /* AppDelegate.swift in Sources */,
-				48C6C47E1C84165600F14127 /* AnotherOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

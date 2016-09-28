@@ -3,6 +3,20 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "Task.(performWithCompletion(Task) -&gt; (() -&gt; ()?) -&gt; ()).(closure #1):Task.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self!">
+            </PersistentString>
+            <PersistentString
+               value = "taskId">
+            </PersistentString>
+            <PersistentString
+               value = "self">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "ViewController.viewDidLoad() -&gt; ():ViewController.swift">
          <PersistentStrings>
             <PersistentString

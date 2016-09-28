@@ -8,20 +8,20 @@
 
 import UIKit
 
-public class SomeOperation: BaseOperation {
+public class Operation: BaseOperation {
+    
+    var task: Task?
     
     override public func start() {
         super.start()
         
-        let someLongTask = SomeLongTask(taskId: self.taskId)
-        someLongTask.doSomethingWithCompletion({
-            if (self.cancelled) {
+        task = Task(taskId: self.taskId)
+        task?.performWithCompletion({[weak self] in
+            guard let strongSelf = self else { return }
+            if (strongSelf.cancelled) {
                 return
             }
-            
-            // - Perform completion here if needed -
-            
-            self.finish()
+            strongSelf.finish()
         })
     }
 }
